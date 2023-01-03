@@ -1,0 +1,32 @@
+//Store the name, school, grade, section, rollno and the marks scored by the student in 3 subjects
+const name ="Kajal";
+let school="Vaish Model Sr. Sec. School";
+const grade= 12;
+const rollno = 28 ;
+let subject1 = 100;
+let subject2 = 100;
+let subject3 = 100;
+//Print the report card of the student
+console.log("                                                ");
+console.log("-------------------------------------------");
+console.log(("Name     :  "),name);
+console.log("-------------------------------------------");
+console.log(("Grade    :  "),grade);
+console.log("-------------------------------------------");
+console.log(("Roll No. :  "),rollno);
+console.log("-------------------------------------------");
+console.log(("School   :  "),school);
+console.log("-------------------------------------------");
+console.log("                                                ");
+console.log("***********************************");
+console.log("|           Report Card           |");
+console.log("***********************************");
+console.log(("*"),"   Subjects " , ("     *  "),  " Marks ",("  *"));
+console.log("***********************************");
+console.log(("*"),"   Subject1  ", ("    |   "),subject1,("     *"));
+console.log(("*"),"   Subject2  ", ("    |   "),subject2,("     *"));
+console.log(("*"),"   Subject3  ", ("    |   "),subject3,("     *"));
+console.log("***********************************");
+console.log(("|"),"  Total Marks", ("    *   "),(subject1)+(subject2)+(subject3),("     |"));
+console.log("***********************************");
+console.log("                                                ");
